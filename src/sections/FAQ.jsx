@@ -9,13 +9,13 @@ const FAQItem = ({ question, answer }) => {
     return (
         <>
             <button className={classNames("faqs-accordion  ", active && "active")} onClick={() => setActive(!active)}>
-                <span className="translate !font-semibold text-base md:text-lg" data-key="faqs-1">
+                <span className="translate !font-semibold text-lg md:text-xl" data-key="faqs-1">
                     {question}
                 </span>
             </button>
             <div className="border-b-2 border-[#002C50]"></div>
             <div
-                className={classNames("faqs-panel md:text-base text-sm", active && "!block")}
+                className={classNames("faqs-panel md:text-lg text-base", active && "!block")}
                 dangerouslySetInnerHTML={{ __html: answer }}
             ></div>
         </>
@@ -30,7 +30,7 @@ const FAQ = () => {
             <div id="faqs-sec" className="anchor"></div>
             <section id="faqs" className=" !bg-[#FF9800] p-8 w-full h-full mx-auto container my-16">
                 <h1
-                    className="faqs-title text-2xl md:text-4xl font-bold text-center !text-[#002C50]"
+                    className="faqs-title text-2xl md:text-4xl font-bold text-center !text-[#002C50] font-bison"
                     data-key="faqs-title"
                 >
                     FREQUENTLY ASKED QUESTIONS

@@ -1,3 +1,4 @@
+"use client";
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import FAQ from "@/sections/FAQ";
@@ -8,21 +9,47 @@ import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
 
 import { FaInstagram } from "react-icons/fa";
 import VideoJS from "@/components/VideoJS";
+import { useState } from "react";
+import classNames from "classnames";
 
 export default function Home() {
+    const [showTranslation, setShowTranslation] = useState(false);
+
     return (
         <div>
             <Navigation />
             <main className="bg-[url('/MLSTBG.png')] bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-8 pb-8">
                 <section className="mx-auto container py-0 md:py-8">
+                    <div>
+                        <div className="w-full h-auto relative">
+                            <video-js
+                                data-account="3745659807001"
+                                data-player="hXGs3fyvO"
+                                data-embed="default"
+                                controls=""
+                                data-video-id="6366454864112"
+                                data-application-id=""
+                                width="960"
+                                height="100%"
+                                className="vjs-fluid"
+                            ></video-js>
+                        </div>
+                        <button
+                            onClick={() => setShowTranslation(!showTranslation)}
+                            className="w-full h-8 pt-1 pb-2 font-bison font-bold text-center bg-white"
+                        >
+                            Choose your preferred language here.
+                        </button>
+                    </div>
+
                     <iframe
                         id="interprefyiFrame"
                         src="https://interprefy.interpret.world/loginlink?token=MLST2025&caption=true"
-                        className="w-full h-[80vh]"
+                        className={classNames("w-full transition-all ", showTranslation ? "h-[80vh]" : "h-0")}
                     ></iframe>
                 </section>
 
-                <section id="contact-us" className="mx-auto container py-16">
+                <section id="contact-us" className="mx-auto container py-16 text-white font-medium">
                     <div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
                         <Image
                             src={"/mylifestorytime.png"}
@@ -44,28 +71,16 @@ export default function Home() {
                     </h3>
                     <h4 className="text-center font-bold mt-8 text-xl md:text-3xl">Follow us and tag us on social:</h4>
 
-                    <div className="flex items-center justify-center space-x-4 md:space-x-8 py-4 flex-wrap">
-                        <div className="flex  items-center justify-center space-x-2">
-                            <FaFacebook className="text-lg md:text-2xl" />{" "}
-                            <Link
-                                href="https://www.facebook.com/@thevofficial"
-                                className="underline italic text-base md:text-xl"
-                                target="_blank"
-                            >
-                                @thevofficial
-                            </Link>
-                        </div>
-                        <div className="flex items-center justify-center space-x-2">
-                            <AiFillTwitterCircle className="text-xl md:text-3xl" />{" "}
-                            <AiFillInstagram className="text-xl md:text-3xl" />{" "}
-                            <Link
-                                href="https://www.facebook.com/@thevofficial"
-                                className="underline italic text-base md:text-xl"
-                                target="_blank"
-                            >
-                                @thev_official
-                            </Link>
-                        </div>
+                    <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
+                        <Link href="https://www.facebook.com/@thevofficial" target="_blank">
+                            <FaFacebook className="text-lg md:text-3xl" />
+                        </Link>
+                        <Link href="https://x.com/thev_official" target="_blank">
+                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "}
+                        </Link>
+                        <Link href="https://www.instagram.com/thev_official/" target="_blank">
+                            <AiFillInstagram className="text-2xl md:text-4xl" />{" "}
+                        </Link>{" "}
                     </div>
                     <h2 className="font-bold text-center text-xl sm:text-2xl md:text-4xl py-4">#MyLifeMyStoryMyTime</h2>
                 </section>
