@@ -36,14 +36,14 @@ export default function Home() {
                         </div>
                         <button
                             onClick={() => setShowTranslation(!showTranslation)}
-                            className="w-full h-10 pt-1 pb-1 font-bison font-bold text-left px-4 bg-[#faa836] !text-white"
+                            className="w-full min-h-10 pt-1 pb-1 font-bison font-bold text-left px-2 md:px-4 bg-[#faa836] !text-white text-[.65rem] sm:text-sm md:text-base"
                         >
                             <Image
                                 src="/headset.png"
                                 width={"24"}
                                 height={"24"}
                                 alt="Headset"
-                                className="mr-2 inline"
+                                className="mr-1 md:mr-2 inline"
                             />{" "}
                             Press this bar to select your preferred language interpretation.
                         </button>
