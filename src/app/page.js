@@ -19,9 +19,9 @@ export default function Home() {
         <div>
             <Navigation />
             <main className="bg-[url('/MLSTBG.png')] bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-8 pb-8">
-                <section className="mx-auto container py-0 md:py-8">
-                    <div>
-                        <div className="w-full h-auto relative">
+                <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
+                    <div className="">
+                        <div className=" relative">
                             <video-js
                                 data-account="3745659807001"
                                 data-player="hXGs3fyvO"
@@ -30,15 +30,22 @@ export default function Home() {
                                 data-video-id="6366454864112"
                                 data-application-id=""
                                 width="960"
-                                height="100%"
-                                className="vjs-fluid"
+                                height="420"
+                                className="vjs-fluid object-contain"
                             ></video-js>
                         </div>
                         <button
                             onClick={() => setShowTranslation(!showTranslation)}
-                            className="w-full h-8 pt-1 pb-2 font-bison font-bold text-center bg-white"
+                            className="w-full h-10 pt-1 pb-1 font-bison font-bold text-left px-4 bg-[#faa836] !text-white"
                         >
-                            Choose your preferred language here.
+                            <Image
+                                src="/headset.png"
+                                width={"24"}
+                                height={"24"}
+                                alt="Headset"
+                                className="mr-2 inline"
+                            />{" "}
+                            Press this bar to select your preferred language interpretation.
                         </button>
                     </div>
 
@@ -58,18 +65,17 @@ export default function Home() {
                             className="object-contain"
                         />
                     </div>
-                    <p className="px-4 md:px-0 py-4 md:py-8 text-lg md:text-3xl max-w-prose mx-auto text-center leading-normal md:leading-loose">
+                    <p className="px-4 md:px-0 py-4 md:py-8 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
                         {" "}
-                        Every journey begins with a decision—it all starts here.
-                        <br />
+                        Every journey begins with a decision—it all starts here.{" "}
                         <span className="text-[#d0f600] font-bold font-avheavy">My Life My Story My Time </span>
                         is about the courage to embrace who you are, take ownership of your story, and create your
                         perfect moment instead of waiting for it.
                     </p>
-                    <h3 className="text-xl md:text-4xl text-[#00fbae] text-center font-bold font-avheavy">
+                    <h3 className="text-xl md:text-4xl py-4 text-[#00fbae] text-center font-bold font-avheavy">
                         Your time is now, what are you waiting for?
                     </h3>
-                    <h4 className="text-center font-bold mt-8 text-xl md:text-3xl font-avheavy">
+                    <h4 className="text-center font-bold mt-32 text-xl md:text-3xl font-avheavy">
                         Follow us and tag us on social:
                     </h4>
 
