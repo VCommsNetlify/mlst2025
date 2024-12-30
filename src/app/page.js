@@ -62,14 +62,16 @@ export default function Home() {
                         {" "}
                         Every journey begins with a decision—it all starts here.
                         <br />
-                        <span className="text-[#d0f600] font-bold">My Life My Story My Time </span>
+                        <span className="text-[#d0f600] font-bold font-avheavy">My Life My Story My Time </span>
                         is about the courage to embrace who you are, take ownership of your story, and create your
                         perfect moment instead of waiting for it.
                     </p>
-                    <h3 className="text-xl md:text-4xl text-[#00fbae] text-center font-bold">
+                    <h3 className="text-xl md:text-4xl text-[#00fbae] text-center font-bold font-avheavy">
                         Your time is now, what are you waiting for?
                     </h3>
-                    <h4 className="text-center font-bold mt-8 text-xl md:text-3xl">Follow us and tag us on social:</h4>
+                    <h4 className="text-center font-bold mt-8 text-xl md:text-3xl font-avheavy">
+                        Follow us and tag us on social:
+                    </h4>
 
                     <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
                         <Link href="https://www.facebook.com/@thevofficial" target="_blank">
@@ -82,7 +84,9 @@ export default function Home() {
                             <AiFillInstagram className="text-2xl md:text-4xl" />{" "}
                         </Link>{" "}
                     </div>
-                    <h2 className="font-bold text-center text-xl sm:text-2xl md:text-4xl py-4">#MyLifeMyStoryMyTime</h2>
+                    <h2 className="font-bold font-avheavy text-center text-xl sm:text-2xl md:text-4xl py-4">
+                        #MyLifeMyStoryMyTime
+                    </h2>
                 </section>
 
                 <FAQ />

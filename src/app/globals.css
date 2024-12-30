@@ -56,6 +56,12 @@
         font-display: swap;
         src: url(/fonts/Bison_Bold.ttf) format("ttf");
     }
+    @font-face {
+        font-family: "AvenirHeavy";
+        font-weight: 800;
+        font-display: swap;
+        src: url(/fonts/AvenirHeavy.ttf) format("ttf");
+    }
 }
 
 html {
@@ -64,4 +70,8 @@ html {
 
 .font-bison {
     font-family: "Bison", sans-serif;
+}
+
+.font-avheavy {
+    font-family: "AvenirHeavy", sans-serif;
 }
