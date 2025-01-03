@@ -79,4 +79,5 @@ html {
 .bg-main {
     background: url("/MLSTBG.png") no-repeat;
     background-size: cover;
+    background-position: center;
 }
