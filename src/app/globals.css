@@ -75,3 +75,8 @@ html {
 .font-avheavy {
     font-family: "AvenirHeavy", sans-serif;
 }
+
+.bg-main {
+    background: url("/MLSTBG.png") no-repeat;
+    background-size: cover;
+}
