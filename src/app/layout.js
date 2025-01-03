@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={` antialiased`}>
+                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-034XRGX66F"></Script>
                 <Script
                     id="google-tag-manager"
                     strategy="beforeInteractive"
