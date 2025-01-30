@@ -84,16 +84,16 @@ export default function Home() {
                         Follow us and tag us on social:
                     </h4>
 
-                    <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
+                    <div className="flex items-center justify-stretch space-x-2 md:space-x-4 py-4 flex-wrap">
                         <Link href="https://www.facebook.com/@thevofficial" target="_blank">
-                            <FaFacebook className="text-lg md:text-3xl" />{" "} 
+                            <FaFacebook className="text-lg md:text-3xl" />{" "} @thevofficial
                             
                         </Link>
                             <Link href="https://www.instagram.com/thev_official/" target="_blank">
-                            <AiFillInstagram className="text-2xl md:text-4xl" />{" "}
+                            <AiFillInstagram className="text-2xl md:text-4xl" />{" "} 
                         </Link>{" "}
                         <Link href="https://x.com/thev_official" target="_blank">
-                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "}
+                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "} @thev_official
                         </Link>
                         
                     </div>
