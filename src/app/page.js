@@ -27,14 +27,15 @@ export default function Home() {
                             fill={true}
                             className="object-contain"
                         />
-                    </div><div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
-                        <Image
-                            src={"/VBP-logo.png"}
-                            alt="My Life Story Time"
-                            fill={true}
-                            className="object-contain"
-                        />
                     </div>
+                    // <div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
+                    //     <Image
+                    //         src={"/VBP-logo.png"}
+                    //         alt="My Life Story Time"
+                    //         fill={true}
+                    //         className="object-contain"
+                    //     />
+                    // </div>
                                 
                 <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
                     <div className="">
