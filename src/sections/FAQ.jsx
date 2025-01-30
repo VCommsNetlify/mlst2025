@@ -28,14 +28,14 @@ const FAQ = () => {
     return (
         <>
             <div id="faqs-sec" className="anchor"></div>
-            <section id="faqs" className=" !bg-[#FF9800] p-8 w-full h-full mx-auto container my-16">
+            <section id="faqs" className=" !bg-[#abf2ff] p-8 w-full h-full mx-auto container my-16">
                 <h1
-                    className="faqs-title text-2xl md:text-4xl font-bold text-center !text-[#002C50] font-bison"
+                    className="faqs-title text-2xl md:text-4xl font-bold text-center !text-[#2b2773] font-bison"
                     data-key="faqs-title"
                 >
                     FREQUENTLY ASKED QUESTIONS
                 </h1>
-                <div className="faqs-menu !bg-[#FF9800] !text-[#002C50]">
+                <div className="faqs-menu !bg-[#abf2ff] !text-[#2b2773]">
                     {faq.map((item, idx) => (
                         <FAQItem key={idx} {...item} />
                     ))}
