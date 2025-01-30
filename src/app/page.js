@@ -20,22 +20,23 @@ export default function Home() {
         
             <Navigation />
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-8 pb-8">
-                <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
-                    <div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
+                <div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
                         <Image
-                            src={"/mylifestorytime.png"}
+                            src={"/VBP-logo.png"}
                             alt="My Life Story Time"
                             fill={true}
                             className="object-contain"
                         />
                     </div><div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
                         <Image
-                            src={"/mylifestorytime.png"}
+                            src={"/VBP-logo.png"}
                             alt="My Life Story Time"
                             fill={true}
                             className="object-contain"
                         />
                     </div>
+                                
+                <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
                     <div className="">
                         <div className=" relative">
                             <video-js
