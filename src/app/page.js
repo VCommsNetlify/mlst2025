@@ -17,6 +17,21 @@ export default function Home() {
 
     return (
         <div>
+        <div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
+                        <Image
+                            src={"/mylifestorytime.png"}
+                            alt="My Life Story Time"
+                            fill={true}
+                            className="object-contain"
+                        />
+                    </div><div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
+                        <Image
+                            src={"/mylifestorytime.png"}
+                            alt="My Life Story Time"
+                            fill={true}
+                            className="object-contain"
+                        />
+                    </div>
             <Navigation />
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-8 pb-8">
                 <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
@@ -57,14 +72,7 @@ export default function Home() {
                 </section>
 
                 <section id="contact-us" className="mx-auto container py-16 text-white font-medium">
-                    <div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
-                        <Image
-                            src={"/mylifestorytime.png"}
-                            alt="My Life Story Time"
-                            fill={true}
-                            className="object-contain"
-                        />
-                    </div>
+                    
                     <p className="px-4 md:px-0 py-4 md:py-8 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
                         {" "}
                         Every journey begins with a decision—it all starts here.{" "}
