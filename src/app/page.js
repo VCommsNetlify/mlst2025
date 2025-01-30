@@ -20,7 +20,7 @@ export default function Home() {
         
             <Navigation />
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-8 pb-8">
-                <div className="w-4/5 md:w-full h-32 md:h-48 relative mx-auto">
+                <div className="w-4/5 md:w-full h-64 md:h-48 relative mx-auto">
                         <Image
                             src={"/VBP-logo.png"}
                             alt="My Life Story Time"
