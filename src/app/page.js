@@ -72,7 +72,7 @@ export default function Home() {
                     <p className="px-4 md:px-0 py-4 md:py-8 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
                         {" "}
                         You have the power to change your life. The question is: where do you start?{" "}
-                        // 
+                         <br />
                         Start here with <span className="text-[#d0f600] font-bold font-avheavy">V Business Presentation</span>! 
                         This is the right place for you to discover the world of network 
                         marketing and explore its unlimited possibilities—<span className="font-bold font-avheavy">The V</span> way.
