@@ -20,7 +20,7 @@ export default function Home() {
         
             <Navigation />
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-8 pb-8">
-                <div className="w-4/5 md:w-full h-64 md:h-64 relative mx-auto">
+                <div className="w-full md:w-full h-80 md:h-80 relative mx-auto">
                         <Image
                             src={"/VBP-logo.png"}
                             alt="My Life Story Time"
@@ -72,7 +72,7 @@ export default function Home() {
                     <p className="px-4 md:px-0 py-4 md:py-8 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
                         {" "}
                         You have the power to change your life. The question is: where do you start?{" "}
-                         <br />
+                         <br /><br />
                         Start here with <span className="text-[#d0f600] font-bold font-avheavy">V Business Presentation</span>! 
                         This is the right place for you to discover the world of network 
                         marketing and explore its unlimited possibilities—<span className="font-bold font-avheavy">The V</span> way.
@@ -86,17 +86,18 @@ export default function Home() {
 
                     <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
                         <Link href="https://www.facebook.com/@thevofficial" target="_blank">
-                            <FaFacebook className="text-lg md:text-3xl" />
+                            <FaFacebook className="text-lg md:text-3xl"  @thevofficial
                         </Link>
-                        <Link href="https://x.com/thev_official" target="_blank">
-                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "}
-                        </Link>
-                        <Link href="https://www.instagram.com/thev_official/" target="_blank">
+                            <Link href="https://www.instagram.com/thev_official/" target="_blank">
                             <AiFillInstagram className="text-2xl md:text-4xl" />{" "}
                         </Link>{" "}
+                        <Link href="https://x.com/thev_official" target="_blank">
+                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "} @thev_official
+                        </Link>
+                        
                     </div>
                     <h2 className="font-bold font-avheavy text-center text-xl sm:text-2xl md:text-4xl py-4">
-                        #MyLifeMyStoryMyTime
+                        #VBP2025
                     </h2>
                 </section>
 
