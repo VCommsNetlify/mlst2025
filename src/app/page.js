@@ -86,7 +86,7 @@ export default function Home() {
 
                     <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
                         <Link href="https://www.facebook.com/@thevofficial" target="_blank">
-                            <FaFacebook className="text-lg md:text-3xl" 
+                            <FaFacebook className="text-lg md:text-3xl" />{" "} 
                             <p>@thevofficial</p>
                         </Link>
                             <Link href="https://www.instagram.com/thev_official/" target="_blank">
