@@ -90,10 +90,10 @@ export default function Home() {
                             
                         </Link>
                             <Link href="https://www.instagram.com/thev_official/" target="_blank">
-                            <AiFillInstagram className="text-2xl md:text-4xl" />{" "}
+                            <AiFillInstagram className="text-2xl md:text-4xl" />{" "}@thevofficial
                         </Link>{" "}
                         <Link href="https://x.com/thev_official" target="_blank">
-                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "} 
+                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "} @thev_official
                         </Link>
                         
                     </div>
