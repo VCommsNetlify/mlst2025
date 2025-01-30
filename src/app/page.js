@@ -73,11 +73,11 @@ export default function Home() {
                         {" "}
                         You have the power to change your life. The question is: where do you start?{" "}
                          <br /><br />
-                        Start here with <span className="text-[#d0f600] font-bold font-avheavy">V Business Presentation</span>! 
+                        Start here with <span className=" font-bold font-avheavy">V Business Presentation</span>! 
                         This is the right place for you to discover the world of network 
                         marketing and explore its unlimited possibilities—<span className="font-bold font-avheavy">The V</span> way.
                     </p>
-                    <h3 className="text-xl md:text-4xl py-4 text-[#00fbae] text-center font-bold font-avheavy">
+                    <h3 className="text-xl md:text-4xl py-4 text-[#ffde00] text-center font-bold font-avheavy">
                         Let’s unleash your limitless potential!
                     </h3>
                     <h4 className="text-center font-bold mt-32 text-xl md:text-3xl font-avheavy">
@@ -86,13 +86,15 @@ export default function Home() {
 
                     <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
                         <Link href="https://www.facebook.com/@thevofficial" target="_blank">
-                            <FaFacebook className="text-lg md:text-3xl"  @thevofficial
+                            <FaFacebook className="text-lg md:text-3xl" 
+                            <p>@thevofficial</p>
                         </Link>
                             <Link href="https://www.instagram.com/thev_official/" target="_blank">
                             <AiFillInstagram className="text-2xl md:text-4xl" />{" "}
                         </Link>{" "}
                         <Link href="https://x.com/thev_official" target="_blank">
-                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "} @thev_official
+                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "} 
+                            <p>@thev_official</p>
                         </Link>
                         
                     </div>
