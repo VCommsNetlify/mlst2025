@@ -29,7 +29,7 @@ export default function Home() {
                             className="object-contain"
                         />
                     </div>
-                    <div className="  w-20 md:w-full h-20 md:h-20 relative mx-auto ">
+                    <div className="hidden sm:block w-20 md:w-full h-20 md:h-20 relative mx-auto ">
                         <Image
                             src={"/VBP-logo.png"}
                             alt="VBP"
