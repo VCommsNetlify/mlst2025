@@ -21,7 +21,15 @@ export default function Home() {
             <Navigation />
                     
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-0 pb-0">
-                <div className="w-full md:w-full h-80 md:h-80 relative mx-auto">
+                <div className="w-full md:w-full h-80 md:h-80 relative mx-auto hidden sm:block">
+                        <Image
+                            src={"/VBP-logo.png"}
+                            alt="My Life Story Time"
+                            fill={true}
+                            className="object-contain"
+                        />
+                    </div>
+                    <div className="w-20 md:w-full h-20 md:h-20 relative mx-auto">
                         <Image
                             src={"/VBP-logo.png"}
                             alt="My Life Story Time"
@@ -84,7 +92,7 @@ export default function Home() {
                         Follow us and tag us on social:
                     </h4>
 
-                    <div className="flex items-center justify-centerr space-x-2 md:space-x-4 py-4 flex-wrap">
+                    <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
                         <Link href="https://www.facebook.com/@thevofficial" target="_blank">
                             <FaFacebook className="text-lg md:text-3xl" />{" "}
                             
