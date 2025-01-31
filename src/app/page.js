@@ -21,7 +21,7 @@ export default function Home() {
             <Navigation />
                     
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-0 pb-0">
-                <div className="w-full h-48 md:w-48 h-20 sm:w-20 h-20 relative mx-auto">
+                <div className="w-full h-48 md:w-full h-30 sm:w-full h-20 relative mx-auto">
                         <Image
                             src={"/VBP-logo.png"}
                             alt="VBP"
