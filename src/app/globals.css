@@ -64,6 +64,14 @@
     }
 }
 
+.mobile-view {
+    display:none;
+}
+
+.web-view {
+    display:none;
+}
+
 html {
     font-family: "Avenir", sans-serif;
 }
