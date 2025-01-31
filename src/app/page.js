@@ -21,18 +21,18 @@ export default function Home() {
             <Navigation />
                     
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-0 pb-0">
-                <div className="hidden lg:block w-full md:w-full h-80 md:h-80 relative mx-auto">
+                <div className="hidden md:block w-full md:w-full h-80 md:h-80 relative mx-auto">
                         <Image
                             src={"/VBP-logo.png"}
-                            alt="My Life Story Time"
+                            alt="VBP"
                             fill={true}
                             className="object-contain"
                         />
                     </div>
-                    <div className="hidden sm:block  w-20 md:w-full h-20 md:h-20 relative mx-auto ">
+                    <div className="  w-20 md:w-full h-20 md:h-20 relative mx-auto ">
                         <Image
                             src={"/VBP-logo.png"}
-                            alt="My Life Story Time"
+                            alt="VBP"
                             fill={true}
                             className="object-contain"
                         />
