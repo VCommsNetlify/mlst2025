@@ -35,19 +35,18 @@ export default function Home() {
                 <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
                     <div className="">
                         <div className=" relative">
-                             <video-js
-                                 data-account="3745659807001"
-                                 data-player="hXGs3fyvO"
-                                 data-embed="default"
-                                 controls=""
-                                 data-video-id="6366454864112"
-                                 data-application-id=""
-                                 width="960"
-                                 height="420"
-                                 className="vjs-fluid object-contain"
-                             ></video-js>
-                             <iframe width="100%" height="100%" src="https://vtube.rev-eu.demo.vbrick.com/embed/webcast/d343545e-80e2-4cd8-ae4b-48f3c079bcc3" style="position: absolute; left: 0; top: 0;" frameborder="0" allowfullscreen></iframe>
-                         </div>
+                            <video-js
+                                data-account="3745659807001"
+                                data-player="hXGs3fyvO"
+                                data-embed="default"
+                                controls=""
+                                data-video-id="6366454864112"
+                                data-application-id=""
+                                width="960"
+                                height="420"
+                                className="vjs-fluid object-contain"
+                            ></video-js>
+                        </div>
                         <button
                             onClick={() => setShowTranslation(!showTranslation)}
                             className="w-full min-h-10 pt-1 pb-1 font-bison font-bold text-left px-2 md:px-4 bg-[#faa836] !text-white text-[.65rem] sm:text-sm md:text-base"
@@ -64,10 +63,10 @@ export default function Home() {
                     </div>
 
                     <iframe
-                         id="interprefyiFrame"
-                         src="https://interprefy.interpret.world/loginlink?token=MLST2025&caption=true"
-                         className={classNames("w-full transition-all ", showTranslation ? "h-[80vh]" : "h-0")}
-                     ></iframe>
+                        id="interprefyiFrame"
+                        src="https://interprefy.interpret.world/loginlink?token=MLST2025&caption=true"
+                        className={classNames("w-full transition-all ", showTranslation ? "h-[80vh]" : "h-0")}
+                    ></iframe>
                 </section>
 
                 <section id="contact-us" className="mx-auto container py-16 text-white font-medium">
