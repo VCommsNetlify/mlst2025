@@ -35,17 +35,7 @@ export default function Home() {
                 <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
                     <div className="">
                         <div className=" relative">
-                            <video-js
-                                data-account="3745659807001"
-                                data-player="hXGs3fyvO"
-                                data-embed="default"
-                                controls=""
-                                data-video-id="6366454864112"
-                                data-application-id=""
-                                width="960"
-                                height="420"
-                                className="vjs-fluid object-contain"
-                            ></video-js>
+                            <iframe width={"100%"} height={"100%"} src="https://vtube.rev-eu.demo.vbrick.com/embed/webcast/d343545e-80e2-4cd8-ae4b-48f3c079bcc3"></iframe>
                         </div>
                         <button
                             onClick={() => setShowTranslation(!showTranslation)}
