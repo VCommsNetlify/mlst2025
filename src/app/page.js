@@ -62,11 +62,7 @@ export default function Home() {
                         </button>
                     </div>
 
-                    <iframe
-                        id="interprefyiFrame"
-                        src="https://interprefy.interpret.world/loginlink?token=MLST2025&caption=true"
-                        className={classNames("w-full transition-all ", showTranslation ? "h-[80vh]" : "h-0")}
-                    ></iframe>
+                    <iframe src="https://eu.events.boostlingo.com/event/hc7t8c/listener" style="width:100%;height:100%"></iframe>
                 </section>
 
                 <section id="contact-us" className="mx-auto container py-16 text-white font-medium">
