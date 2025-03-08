@@ -52,11 +52,11 @@ export default function Home() {
                         </button>
                     </div>
 
-                    <iframe>
+                    <iframe
                         id="interprefyiFrame"
                         src="https://eu.events.boostlingo.com/event/hc7t8c/listener"
-                        style="width:100%;height:100%"}
-                    </iframe>
+                        style="width:100%;height:100%"
+                    ></iframe>
                 </section>
 
                 <section id="contact-us" className="mx-auto container py-16 text-white font-medium">
