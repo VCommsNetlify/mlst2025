@@ -58,7 +58,7 @@ export default function Home() {
                                 alt="Headset"
                                 className="mr-1 md:mr-2 inline"
                             />{" "}
-                            Press this bar to select your preferred language interpretation.
+                            Press this bar to select your preferred language interpretation.!
                         </button>
                     </div>
 
