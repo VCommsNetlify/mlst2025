@@ -35,7 +35,7 @@ export default function Home() {
                 <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
                     <div className="">
                         <div className=" relative">
-                            <iframe width={"100%"} height={"100%"} src="https://vtube.rev-eu.demo.vbrick.com/embed/webcast/d343545e-80e2-4cd8-ae4b-48f3c079bcc3" style={"position: absolute; left: 0; top: 0;"} frameborder={"0"}></iframe>
+                            <iframe width={"100%"} height={"100%"} src="https://vtube.rev-eu.demo.vbrick.com/embed/webcast/d343545e-80e2-4cd8-ae4b-48f3c079bcc3" frameborder={"0"}></iframe>
                         </div>
                         <button
                             onClick={() => setShowTranslation(!showTranslation)}
