@@ -64,7 +64,7 @@ export default function Home() {
 
                     <iframe
                         id="interprefyiFrame"
-                        src="https://interprefy.interpret.world/loginlink?token=MLST2025&caption=true"
+                        src="https://stm.live/VBP-May-2025-POC/fullscreen?embed=true"
                         className={classNames("w-full transition-all ", showTranslation ? "h-[80vh]" : "h-0")}
                     ></iframe>
                 </section>
