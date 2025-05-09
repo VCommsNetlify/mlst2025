@@ -35,7 +35,17 @@ export default function Home() {
                 <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
                     <div className="">
                         <div className=" relative">
-                            <iframe width={"100%"} height={"100%"} src="https://vtube.rev-eu.demo.vbrick.com/embed/webcast/d343545e-80e2-4cd8-ae4b-48f3c079bcc3" frameborder={"0"}></iframe>
+                            <video-js
+                                data-account="3745659807001"
+                                data-player="hXGs3fyvO"
+                                data-embed="default"
+                                controls=""
+                                data-video-id="6366454864112"
+                                data-application-id=""
+                                width="960"
+                                height="420"
+                                className="vjs-fluid object-contain"
+                            ></video-js>
                         </div>
                         <button
                             onClick={() => setShowTranslation(!showTranslation)}
@@ -54,7 +64,7 @@ export default function Home() {
 
                     <iframe
                         id="interprefyiFrame"
-                        src="https://eu.events.boostlingo.com/event/hc7t8c/listener"
+                        src="https://interprefy.interpret.world/loginlink?token=MLST2025&caption=true"
                         className={classNames("w-full transition-all ", showTranslation ? "h-[80vh]" : "h-0")}
                     ></iframe>
                 </section>
