@@ -40,7 +40,7 @@ export default function Home() {
                                 data-player="hXGs3fyvO"
                                 data-embed="default"
                                 controls=""
-                                data-video-id="6369852980112"
+                                data-video-id="6368031958112"
                                 data-application-id=""
                                 width="960"
                                 height="420"
