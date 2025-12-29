@@ -92,6 +92,6 @@ html {
 
 .bg-main {
     background: url("/ignite-microsite-BG.png") no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
