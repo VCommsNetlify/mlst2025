@@ -92,7 +92,7 @@ html {
 
 .bg-main {
     background: url("/ignite-microsite-BG.png") no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: contain; 
     min-height: 100vh; 
 }
