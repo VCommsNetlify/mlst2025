@@ -59,7 +59,7 @@ export default function Home() {
                     ></iframe>
                 </section>
 
-                <div className="relative w-full h-24 sm:h-28 md:h-32 mx-auto">
+                <div className="relative w-full h-24 sm:h-28 md:h-32 mx-auto mt-8 md:mt-12">
                         <Image
                             src={"/ignite-logo-MAIN.png"}
                             alt="ignite logo"
