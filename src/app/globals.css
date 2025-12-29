@@ -94,7 +94,8 @@ html {
     background: url("/ignite-microsite-BG.png") no-repeat;
     background-position: top;
     background-size: contain; 
-    min-height: 100vh; 
+    background-repeat: repeat;
+    min-height: 200vh; 
 }
 
 
