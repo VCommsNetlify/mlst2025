@@ -93,7 +93,7 @@ html {
 .bg-main {
     background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.5)), url("/ignite-microsite-BG.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: contain;
     min-height: 100vh;
 }
