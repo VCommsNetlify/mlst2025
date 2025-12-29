@@ -59,7 +59,7 @@ export default function Home() {
                     ></iframe>
                 </section>
 
-                <div className="w-full h-48 md:w-full h-50 sm:w-full h-40 relative mx-auto">
+                <div className="relative w-full h-24 sm:h-28 md:h-32 mx-auto">
                         <Image
                             src={"/ignite-logo-MAIN.png"}
                             alt="ignite logo"
@@ -82,18 +82,35 @@ export default function Home() {
                         Make sure to tag and follow us on social media!
                     </h4>
 
-                    <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
-                        <Link href="https://www.facebook.com/@thevofficial" target="_blank">
-                            <FaFacebook className="text-lg md:text-3xl text-[#9514a7]" /> <em>@thevofficial</em>{" "}
-                            
+                    <div className="flex flex-row items-center justify-center gap-6 md:gap-8 py-4">
+                        {/* Facebook: Icon and Text side-by-side */}
+                        <Link 
+                            href="https://www.facebook.com/@thevofficial" 
+                            target="_blank" 
+                            className="flex items-center gap-2"
+                        >
+                            <FaFacebook className="text-2xl md:text-3xl text-[#9514a7]" /> 
+                            <span className="text-[#9514a7] italic text-base md:text-lg">@thevofficial</span>
                         </Link>
-                            <Link href="https://www.instagram.com/thev_official/" target="_blank">
-                            <AiFillInstagram className="text-2xl md:text-4xl text-[#9514a7]" /> {" "} 
-                        </Link>{" "}
-                        <Link href="https://x.com/thev_official" target="_blank">
-                            <AiFillTwitterCircle className="text-2xl md:text-4xl text-[#9514a7]" /> <em>@thev_official</em>{" "}
+
+                        {/* Instagram: Icon only */}
+                        <Link 
+                            href="https://www.instagram.com/thev_official/" 
+                            target="_blank"
+                            className="flex items-center"
+                        >
+                            <AiFillInstagram className="text-3xl md:text-4xl text-[#9514a7]" /> 
                         </Link>
-                        
+
+                        {/* Twitter/X: Icon and Text side-by-side */}
+                        <Link 
+                            href="https://x.com/thev_official" 
+                            target="_blank"
+                            className="flex items-center gap-2"
+                        >
+                            <AiFillTwitterCircle className="text-2xl md:text-3xl text-[#9514a7]" /> 
+                            <span className="text-[#9514a7] italic text-base md:text-lg">@thev_official</span>
+                        </Link>
                     </div>
                     <h2 className="font-bold font-avheavy text-[#661e70] text-center text-xl sm:text-2xl md:text-4xl py-4">
                         #IGNITE2026

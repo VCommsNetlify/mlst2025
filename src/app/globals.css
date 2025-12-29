@@ -62,6 +62,12 @@
         font-display: swap;
         src: url(/fonts/AvenirHeavy.ttf) format("ttf");
     }
+        @font-face {
+        font-family: "ArticulatCF";
+        font-weight: 800;
+        font-display: swap;
+        src: url(/fonts/ArticulatCFNormal.ttf) format("ttf");
+    }
 }
 
 .mobile-view {
@@ -73,7 +79,7 @@
 }
 
 html {
-    font-family: "Avenir", sans-serif;
+    font-family: "ArticulatCF", sans-serif;
 }
 
 .font-bison {
