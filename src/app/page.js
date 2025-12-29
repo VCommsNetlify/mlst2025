@@ -59,7 +59,7 @@ export default function Home() {
                     ></iframe>
                 </section>
 
-                <div className="w-full h-48 md:w-full h-30 sm:w-full h-20 relative mx-auto">
+                <div className="w-full h-48 md:w-full h-50 sm:w-full h-40 relative mx-auto">
                         <Image
                             src={"/ignite-logo-MAIN.png"}
                             alt="ignite logo"
@@ -70,7 +70,7 @@ export default function Home() {
 
                 <section id="contact-us" className="mx-auto container py-16 text-white font-medium">
                     
-                    <p className="px-4 md:px-0 py-4 md:py-8 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
+                    <p className="px-4 md:px-0 py-4 text-[#0026b3] md:py-8 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
                         {" "}
                         The new year brings countless new opportunities for everyone to grow, lead, and succeed.{" "}
                          <br /><br />
@@ -84,14 +84,14 @@ export default function Home() {
 
                     <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
                         <Link href="https://www.facebook.com/@thevofficial" target="_blank">
-                            <FaFacebook className="text-lg md:text-3xl text-[#9514a7]" /> @thevofficial{" "}
+                            <FaFacebook className="text-lg md:text-3xl text-[#9514a7]" /> <em>@thevofficial</em>{" "}
                             
                         </Link>
                             <Link href="https://www.instagram.com/thev_official/" target="_blank">
-                            <AiFillInstagram className="text-2xl md:text-4xl " /> {" "} 
+                            <AiFillInstagram className="text-2xl md:text-4xl text-[#9514a7]" /> {" "} 
                         </Link>{" "}
                         <Link href="https://x.com/thev_official" target="_blank">
-                            <AiFillTwitterCircle className="text-2xl md:text-4xl text-[#9514a7]" /> @thev_official{" "}
+                            <AiFillTwitterCircle className="text-2xl md:text-4xl text-[#9514a7]" /> <em>@thev_official</em>{" "}
                         </Link>
                         
                     </div>
