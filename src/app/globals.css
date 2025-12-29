@@ -91,11 +91,11 @@ html {
 }
 
 .bg-main {
-    background: url("/ignite-microsite-BG.png") no-repeat;
-    background-position: bottom;
-    background-size: contain; 
-    background-repeat: repeat;
-    min-height: 100vh; 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("/ignite-microsite-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 100vh;
 }
 
 
