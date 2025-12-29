@@ -92,6 +92,14 @@ html {
 
 .bg-main {
     background: url("/ignite-microsite-BG.png") no-repeat;
-    background-size: contain;
     background-position: center;
+    background-size: contain; 
+    min-height: 100vh; 
+}
+
+
+@media (min-width: 768px) {
+    .bg-main {
+        background-size: cover;
+    }
 }
