@@ -21,16 +21,6 @@ export default function Home() {
             <Navigation />
                     
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-0 pb-0">
-                <div className="w-full h-48 md:w-full h-30 sm:w-full h-20 relative mx-auto">
-                        <Image
-                            src={"/VBP-logo.png"}
-                            alt="VBP"
-                            fill={true}
-                            className="object-contain"
-                        />
-                    </div>
-                    
-                    
                                 
                 <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-0 md:py-4">
                     <div className="">
@@ -69,38 +59,44 @@ export default function Home() {
                     ></iframe>
                 </section>
 
+                <div className="w-full h-48 md:w-full h-30 sm:w-full h-20 relative mx-auto">
+                        <Image
+                            src={"/ignite-logo-MAIN.png"}
+                            alt="ignite logo"
+                            fill={true}
+                            className="object-contain"
+                        />
+                    </div>
+
                 <section id="contact-us" className="mx-auto container py-16 text-white font-medium">
                     
                     <p className="px-4 md:px-0 py-4 md:py-8 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
                         {" "}
-                        You have the power to change your life. The question is: where do you start?{" "}
+                        The new year brings countless new opportunities for everyone to grow, lead, and succeed.{" "}
                          <br /><br />
-                        Start here with <span className=" font-bold font-avheavy">V Business Presentation</span>! 
-                        This is the right place for you to discover the world of network 
-                        marketing and explore its unlimited possibilities—<span className="font-bold font-avheavy">The V</span> way.
+                        <span className=" font-bold font-avheavy text-[#ec1900]">IGNITE 2026</span>  is YOUR chance to start strong — by renewing 
+                        your commitment to your dreams and channeling all this energy into consistent action.
                     </p>
-                    <h3 className="text-xl md:text-4xl py-4 text-[#ffde00] text-center font-bold font-avheavy">
-                        Let’s unleash your limitless potential!
-                    </h3>
-                    <h4 className="text-center font-bold mt-32 text-xl md:text-3xl font-avheavy">
-                        Follow us and tag us on social:
+                   
+                    <h4 className="text-center font-bold mt-32 text-[#9514a7] text-xl md:text-3xl font-avheavy">
+                        Make sure to tag and follow us on social media!
                     </h4>
 
                     <div className="flex items-center justify-center space-x-2 md:space-x-4 py-4 flex-wrap">
                         <Link href="https://www.facebook.com/@thevofficial" target="_blank">
-                            <FaFacebook className="text-lg md:text-3xl" />{" "}
+                            <FaFacebook className="text-lg md:text-3xl text-[#9514a7]" /> @thevofficial{" "}
                             
                         </Link>
                             <Link href="https://www.instagram.com/thev_official/" target="_blank">
-                            <AiFillInstagram className="text-2xl md:text-4xl" />{" "} 
+                            <AiFillInstagram className="text-2xl md:text-4xl " /> {" "} 
                         </Link>{" "}
                         <Link href="https://x.com/thev_official" target="_blank">
-                            <AiFillTwitterCircle className="text-2xl md:text-4xl" />{" "}
+                            <AiFillTwitterCircle className="text-2xl md:text-4xl text-[#9514a7]" /> @thev_official{" "}
                         </Link>
                         
                     </div>
-                    <h2 className="font-bold font-avheavy text-center text-xl sm:text-2xl md:text-4xl py-4">
-                        #VBP2025
+                    <h2 className="font-bold font-avheavy text-[#661e70] text-center text-xl sm:text-2xl md:text-4xl py-4">
+                        #IGNITE2026
                     </h2>
                 </section>
 
