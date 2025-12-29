@@ -78,7 +78,7 @@ export default function Home() {
                         your commitment to your dreams and channeling all this energy into consistent action.
                     </p>
                    
-                    <h4 className="text-center font-bold mt-32 text-[#9514a7] text-xl md:text-3xl font-avheavy">
+                   <h4 className="text-center font-bold mt-32 text-[#9514a7] text-xl md:text-3xl font-avheavy px-4">
                         Make sure to tag and follow us on social media!
                     </h4>
 
