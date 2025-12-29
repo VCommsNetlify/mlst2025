@@ -90,9 +90,13 @@ html {
     font-family: "AvenirHeavy", sans-serif;
 }
 
+.font-articulat {
+    font-family: "ArticulatCF", sans-serif;
+}
+
 .bg-main {
     background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.5)), url("/ignite-microsite-BG.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: top;
     background-size: contain;
     min-height: 100vh;
